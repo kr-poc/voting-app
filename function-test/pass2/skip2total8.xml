@@ -5,12 +5,12 @@
       <property name="" value=""/>
     </properties>
 
-    <testcase name="Async 常规 对新创建pipeline，创建成功处理的异步任务" classname="Pfop Suite" time="9.75117752" assertions="" status="">
+    <testcase name="API Test Suites API 工作流获取成功" classname="pipeline Suite" time="9.75117752" assertions="" status="">
       <skipped/>
     </testcase>
-    <testcase name="Async 常规 对新创建pipeline，创建成功处理的异步任务" classname="Pfop Suite" time="9.75117752"></testcase>
-    <testcase name="Async 常规 对新建pipeline，创建处理失败的异步任务" classname="Pfop Suite" time="10.043716176"></testcase>
-    <testcase name="Async 常规 Private新系统，共享队列，处理正常" classname="Pfop Suite" time="0.262019138"></testcase>
+    <testcase name="API Test Suites API 工作流创建任务成功" classname="pipeline Suite" time="9.75117752"></testcase>
+    <testcase name="API Test Suites API 工作流执行任务成功" classname="pipeline Suite" time="10.043716176"></testcase>
+    <testcase name="API Test Suites API 工作流取消任务成功" classname="pipeline Suite" time="0.262019138"></testcase>
   </testsuite>
 
   <testsuite name="测试2" tests="4"  disabled="true"  errors=""  failures="0"  hostname=""  id=""  package=""  skipped="1"  time="1.398" timestamp="1582711448" >
@@ -18,11 +18,11 @@
       <property name="" value=""/>
     </properties>
 
-    <testcase name="Async 常规 对新创建pipeline，创建成功处理的异步任务" classname="Pfop Suite" time="9.75117752" assertions="" status="">
+    <testcase name="API Test Suites API 工作流重试任务成功" classname="pipeline Suite" time="9.75117752" assertions="" status="">
       <skipped/>
     </testcase>
-    <testcase name="Async 常规 对新创建pipeline，创建成功处理的异步任务" classname="Pfop Suite" time="9.75117752"></testcase>
-    <testcase name="Async 常规 对新建pipeline，创建处理失败的异步任务" classname="Pfop Suite" time="10.043716176"></testcase>
-    <testcase name="Async 常规 Private新系统，共享队列，处理正常" classname="Pfop Suite" time="0.262019138"></testcase>
+    <testcase name="API Test Suites API 工作流取消重试任务成功" classname="pipeline Suite" time="9.75117752"></testcase>
+    <testcase name="API Test Suites API 工作流克隆任务成功" classname="pipeline Suite" time="10.043716176"></testcase>
+    <testcase name="API Test Suites API 删除工作流成功" classname="pipeline Suite" time="0.262019138"></testcase>
   </testsuite>
 </testsuites>

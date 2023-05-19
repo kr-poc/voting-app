@@ -14,7 +14,7 @@ spec:
   selector:
     app: result
 ---
-apiVersion: extensions/v1beta1
+apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: result
@@ -22,10 +22,13 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
-  - host: {{.result_domain}}
+  - host: result-e2e-10x-$Namespace$.ko.coderover.cn
     http:
       paths:
       - path: /
+        pathType: Prefix
         backend:
-          serviceName: result
-          servicePort: 5001
+          service:
+            name: result
+            port:
+              number: 5001

@@ -14,7 +14,7 @@ spec:
     app: vote
     version: rc-origin
 ---
-apiVersion: extensions/v1beta1
+apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: vote
@@ -22,10 +22,13 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
-  - host: {{.vote_domain}}
+  - host: vote-e2e-10x-$Namespace$.ko.coderover.cn
     http:
       paths:
       - path: /
+        pathType: Prefix
         backend:
-          serviceName: vote
-          servicePort: 5000
+          service:
+            name: vote
+            port:
+              number: 5000

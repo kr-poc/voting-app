@@ -1,48 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <testsuite tests="22" failures="0" time="110.444401318">
- 
-      <testcase name="Async 常规 任务处于waiting状态，重建队列" classname="Koderover Suite" time="0">
-          <skipped></skipped>
-      </testcase>
-      <testcase name="Async 常规 任务处于doing状态，重建队列" classname="Koderover Suite" time="17.327177434"></testcase>
-      <testcase name="Async 常规 [只能线上测试]创建z0 pipeline，用z1的资源做异步处理" classname="Koderover Suite" time="0">
-          <skipped></skipped>
-      </testcase>
-      <testcase name="触发持久化处理（Koderover） 正向用例 多个数据处理命令，触发持久化处理成功，返回200" classname="Koderover Suite" time="3.570214278"></testcase>
-      <testcase name="触发持久化处理（Koderover） 正向用例 bs-功能 #17047,force＝0,saveas中的key已存在，返回200" classname="Koderover Suite" time="15.062001613"></testcase>
-      <testcase name="触发持久化处理（Koderover） 正向用例 avconvert，异步请求处理不支持" classname="Koderover Suite" time="3.042679078"></testcase>
-      <testcase name="触发持久化处理（Koderover） 正向用例 [Private]bs-功能 #20165[fixed], notifyURL设置，回调失败，返回callback failed" classname="Koderover Suite" time="0.024684703"></testcase>
-      <testcase name="触发持久化处理（Koderover） 正向用例 [Private],bs-功能 #20165[fixed], notifyURL设置，回调成功，返回200" classname="Koderover Suite" time="3.030739967"></testcase>
-      <testcase name="触发持久化处理（Koderover） 正向用例 实时deleteAfterDays测试 实时deleteAfterDays 1天后删除saveas数据" classname="Koderover Suite" time="0.066691896"></testcase>
-      <testcase name="触发持久化处理（Koderover） 正向用例 实时deleteAfterDays测试 实时验证前天设置的deleteAfterDays/1的文件是否存在" classname="Koderover Suite" time="0.038381577"></testcase>
-      <testcase name="触发持久化处理（Koderover） 正向用例 异步deleteAfterDays测试 异步deleteAfterDays 1天后删除saveas数据" classname="Koderover Suite" time="0.01013971"></testcase>
-      <testcase name="触发持久化处理（Koderover） 正向用例 异步deleteAfterDays测试 异步验证前天设置的deleteAfterDays/1的文件是否存在" classname="Koderover Suite" time="0.009151107"></testcase>
-      <testcase name="触发持久化处理（Koderover） [Private]反向用例 管理凭证无效，返回401" classname="Koderover Suite" time="0.001741274"></testcase>
-      <testcase name="触发持久化处理（Koderover） [Private]反向用例 不进行授权，返回401" classname="Koderover Suite" time="0.005644636"></testcase>
-      <testcase name="触发持久化处理（Koderover） [Private]反向用例 请求内容不传入bucket，返回631" classname="Koderover Suite" time="0.006236023"></testcase>
-      <testcase name="触发持久化处理（Koderover） [Private]反向用例 请求内容不传入key值，返回400" classname="Koderover Suite" time="0.009424139"></testcase>
-      <testcase name="触发持久化处理（Koderover） [Private]反向用例 请求内容不传入指令参数fops，返回400" classname="Koderover Suite" time="0.002489552"></testcase>
-      <testcase name="触发持久化处理（Koderover） [Private]反向用例 请求内容为空，返回631" classname="Koderover Suite" time="0.005428443"></testcase>
-      <testcase name="触发持久化处理（Koderover） [Private]反向用例 资源不存在，返回612" classname="Koderover Suite" time="0.01274631"></testcase>
-      <testcase name="触发持久化处理（Koderover） [Private]反向用例 不传入参数请求报文格式错误，返回400" classname="Koderover Suite" time="0.008349666"></testcase>
-      <testcase name="触发持久化处理（Koderover） [Private]反向用例 查询不存在的persistentId，不带zone，返回612" classname="Koderover Suite" time="0.006071502"></testcase>
-      <testcase name="触发持久化处理（Koderover） [Private]反向用例 查询不存在的persistentId，带zone，返回612" classname="Koderover Suite" time="0.003505798"></testcase>
-      <testcase name="Async dispatch test 1个队列 10x10个任务" classname="Koderover Suite" time="0">
-          <skipped></skipped>
-      </testcase>
-      <testcase name="Async dispatch test 1个队列 2x100个任务" classname="Koderover Suite" time="0">
-          <skipped></skipped>
-      </testcase>
-      <testcase name="Async dispatch test 2个队列 " classname="Koderover Suite" time="0">
-          <skipped></skipped>
-      </testcase>
-      <testcase name="Async dispatch test 2个队列 " classname="Koderover Suite" time="0">
-          <skipped></skipped>
-      </testcase>
-      <testcase name="Async dispatch test N个队列 10x10x10个任务" classname="Koderover Suite" time="0">
-          <skipped></skipped>
-      </testcase>
-      <testcase name="Async dispatch test 2个用户 " classname="Koderover Suite" time="0">
-          <skipped></skipped>
-      </testcase>
+  <testsuite tests="13" failures="0" skips="0" time="65.473">
+      <testcase name="API Test Suites API 测试集：项目、服务、集成环境、工作流 项目测试集 新增项目，详情返回校验成功" classname="API Test Suite" time="0.256508758"></testcase>
+      <testcase name="API Test Suites API 测试集：项目、服务、集成环境、工作流 项目测试集 已存项目，获取详情校验成功" classname="API Test Suite" time="0.05056192"></testcase>
+      <testcase name="API Test Suites API 测试集：项目、服务、集成环境、工作流 项目测试集 删除项目，返回校验成功" classname="API Test Suite" time="0.12074505"></testcase>
+      <testcase name="API Test Suites API 测试集：项目、服务、集成环境、工作流 服务测试集：新增、查看、删除 新增服务，详情返回校验成功" classname="API Test Suite" time="0.117066632"></testcase>
+      <testcase name="API Test Suites API 测试集：项目、服务、集成环境、工作流 服务测试集：新增、查看、删除 已存服务，获取详情校验成功" classname="API Test Suite" time="0.034139487"></testcase>
+      <testcase name="API Test Suites API 测试集：项目、服务、集成环境、工作流 服务测试集：新增、查看、删除 删除服务，返回校验成功" classname="API Test Suite" time="0.101714178"></testcase>
+      <testcase name="API Test Suites API 测试集：项目、服务、集成环境、工作流 集成环境测试集：新增、查看、更新、删除 新增环境，详情返回校验成功" classname="API Test Suite" time="0.123724897"></testcase>
+      <testcase name="API Test Suites API 测试集：项目、服务、集成环境、工作流 集成环境测试集：新增、查看、更新、删除 已存环境，获取详情校验成功" classname="API Test Suite" time="0.045644415"></testcase>
+      <testcase name="API Test Suites API 测试集：项目、服务、集成环境、工作流 集成环境测试集：新增、查看、更新、删除 删除环境，返回校验成功" classname="API Test Suite" time="0.251620057"></testcase>
+      <testcase name="API Test Suites API 测试集：项目、服务、集成环境、工作流 工作流测试集：新建、查看、执行、删除、webhook 触发 新建工作流，详情返回校验成功" classname="API Test Suite" time="0.059631784"></testcase>
+      <testcase name="API Test Suites API 测试集：项目、服务、集成环境、工作流 工作流测试集：新建、查看、执行、删除、webhook 触发 查看已存在的工作流，获取详情校验成功" classname="API Test Suite" time="0.040337097"></testcase>
+      <testcase name="API Test Suites API 测试集：项目、服务、集成环境、工作流 工作流测试集：新建、查看、执行、删除、webhook 触发 删除工作流，返回校验成功" classname="API Test Suite" time="0.126307588"></testcase>
+      <testcase name="API Test Suites API 测试集：项目、服务、集成环境、工作流 清理资源 删除项目" classname="API Test Suite" time="0.0430006"></testcase>
   </testsuite>
